@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<script>
+    
+</script>
+
+<link rel="stylesheet" href="/calculadora.css">
+<script src="funcionescalculadora.js"></script>
+
+
+<html>
+     <head></head>
+     <body>
+              
+
+          <div id="backGround">
+
+               <div class="colorOverlay"></div>
+          
+               
+          <video id="miVideo" width="1920" height="1080" muted autoplay loop preload="auto">
+               <source src="/Multimedia/1.mp4" type="video/mp4">
+              
+           </video>
+
+          </div>
+
+        
+        
+          <div id="appCal">
+          
+          <div class="fondoCal"></div>
+          
+          <p>Built using standard web technologies such as JavaScript, HTML, and CSS, My Calculator Project is a versatile tool that combines advanced functionality with an intuitive user interface. Through efficient handling of the Document Object Model (DOM), I have created a seamless experience for users, allowing them to easily interact with calculator elements. In addition to basic operations, my calculator offers trigonometric functions for sine, cosine, and tangent calculations, as well as exponential operations for powers and roots. I've also implemented the ability to compute factorials, making it a powerful tool for a variety of math needs.</p>
+          <h1>MATH CALCULATOR</h1>
+          <h2>github-RafaelDeve</h2>
+          <form id="miFormulario" name="calculadora">
+
+
+               <input class="textField"  type="textfield" name="ans" value="" autocompleta="off" readonly>
+
+               <br>
+
+               <input class="blue" type="button" value="Deg" onclick="document.calculadora.ans.value+=''">
+               <input class="blue" type="button" value="+/-" onclick="document.calculadora.ans.value+='-'" >
+               <input class="blue"   type="button" value="x!" onclick="document.calculadora.ans.value+='fac'">
+               <input class="blue" type="button" value="(" onclick="document.calculadora.ans.value+='('">
+               <input class="blue" type="button" value=")" onclick="document.calculadora.ans.value+=')'">
+               <input class="blue" type="button" value="%" onclick="document.calculadora.ans.value+='%'">
+               <input type="reset" value="AC" class="gradientText">
+               <div class="cuadro"></div>
+
+               <br>
+
+               
+               <input class="blue" type="button" value="Inv" id="activarDesactivar">
+               <input class="blue" type="button" value="arcsin" onclick="document.calculadora.ans.value+='arcsin'" >
+               <input class="blue" type="button" value="eR" onclick="document.calculadora.ans.value+='eR'">
+               <input class="num gray" type="button" value="7" >
+               <input class="num gray" type="button" value="8" >
+               <input class="num gray" type="button" value="9">
+               <input class="blue" type="button" value="÷" onclick="document.calculadora.ans.value+='/'" class="orange">
+
+               <br>
+
+               <input class="blue"  type="button" value="π" onclick="document.calculadora.ans.value+='π'">
+               <input class="blue"  type="button" value="arcc" onclick="document.calculadora.ans.value+='arccos'">
+               <input class="blue"  type="button" value="e10" onclick="document.calculadora.ans.value+='e10'">
+               <input type="button" value="4" onclick="document.calculadora.ans.value+='4'" class="gray">
+               <input type="button" value="5" onclick="document.calculadora.ans.value+='5'"class="gray">
+               <input type="button" value="6" onclick="document.calculadora.ans.value+='6'" class="gray">
+               <input class="blue" type="button" value="x" id="input" onclick="document.calculadora.ans.value+='*'" class="orange">
+
+               <br>
+
+               <input class="blue"  type="button" value="e" onclick="document.calculadora.ans.value+='e'">
+               <input class="blue"  type="button" value="arct" onclick="document.calculadora.ans.value+='arctan'">
+               <input class="blue" type="button" value="√" onclick="document.calculadora.ans.value+='root'">
+               <input type="button" value="1" onclick="document.calculadora.ans.value+='1'" class="gray">
+               <input type="button" value="2" onclick="document.calculadora.ans.value+='2'" class="gray">
+               <input type="button" value="3" onclick="document.calculadora.ans.value+='3'" class="gray">
+               <input class="blue" type="button" value="-" onclick="document.calculadora.ans.value+='-'" class="orange">
+
+               <br>
+
+               <input class="blue" type="button" value="Ans" onclick="document.calculadora.ans.value+='Ans'">
+               <input class="blue" type="button" value="EXP" onclick="document.calculadora.ans.value+='E'">
+               <input class="blue" type="button" value="xe" onclick="document.calculadora.ans.value+='**'">
+               <input type="button" value="0" onclick="document.calculadora.ans.value+='0'" class="gray">
+               <input type="button" value="." onclick="document.calculadora.ans.value+='.'" class="gray">
+               <input type="button" value="=" onclick="document.calculadora.ans.value=eval(document.calculadora.ans.value)" class="gradient">
+               <input class="blue" type="button" value="+" onclick="document.calculadora.ans.value+='+'" class="orange">
+
+               <br>
+               
+          
+               <input class="arcS hey blue" type="button" value="sin" onclick="document.calculadora.ans.value+='sin'">
+               <input class="arcC hey blue"   type="button" value="cos" onclick="document.calculadora.ans.value+='cos'">
+               <input class="arcT hey blue"   type="button" value="tan" onclick="document.calculadora.ans.value+='tan'">
+               <input class="eR hey blue"    type="button" value="ln" onclick="document.calculadora.ans.value+='ln'">
+               <input class="e10 hey blue"    type="button" value="log" onclick="document.calculadora.ans.value+='log'">
+
+               
+               
+               <br>
+
+               
+
+
+
+
+
+
+
+
+
+               
+
+
+
+          </form>
+            
+
+
+
+
+
+
+
+
+
+         </div> 
+        
+     
+     </body>
+     </body>
+</html>
