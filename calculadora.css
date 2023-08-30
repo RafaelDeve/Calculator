@@ -5,6 +5,25 @@ body {
     overflow: hidden; 
 }
 
+@font-face {
+    font-family: 'Product Sans';
+    src: url('./Tipografias/ProductSans-Black.ttf') format('ttf'),
+        url('./Tipografias/ProductSans-BlackItalic.ttf') format('ttf'),
+        url('./Tipografias/ProductSans-Bold.ttf') format('ttf'),
+        url('./Tipografias/ProductSans-BoldItalic.ttf') format('ttf'),
+        url('./Tipografias/ProductSans-Italic.ttf') format('ttf'),
+        url('./Tipografias/ProductSans-Light.ttf') format('ttf'),
+        url('./Tipografias/ProductSans-LightItalic.ttf') format('ttf'),
+        url('./Tipografias/ProductSans-Medium.ttf') format('ttf'),
+        url('./Tipografias/ProductSans-MediumItalic.ttf') format('ttf'),
+        url('./Tipografias/ProductSans-Regular.ttf') format('ttf'),
+        url('./Tipografias/ProductSans-Thin.ttf') format('ttf'),
+        url('./Tipografias/ProductSans-ThinItalic.ttf') format('ttf');
+    /* ... */
+    font-weight: normal;
+    font-style: normal;
+}
+
 video {
     position: fixed;
     top: 0;
@@ -29,7 +48,7 @@ mix-blend-mode: multiply;
 
 
 .fondoCal {
-    
+    border-radius: 0.625rem;
    z-index: -1;
     position: absolute;
     opacity: 0.6;
@@ -62,7 +81,7 @@ border-radius: 0.3125rem;
 background: #0E0E0E;
 text-align: right;
 color: #FFF;
-font-family: Product Sans;
+font-family: 'Product Sans';
 font-size: 5rem;
 font-style: normal;
 font-weight: 400;
@@ -89,7 +108,7 @@ background-color: #060C15;
 border: 0;
 outline: none;
 color: #FFF;
-font-family: Product Sans;
+font-family: 'Product Sans';
 font-size: 1.3rem;
 font-style: normal;
 font-weight: 400;
@@ -99,6 +118,7 @@ margin-bottom: 0.6rem;
 margin-left: 0.5rem;
 
 }
+
 
 .blue {
     background-color: #060C15 !important;
@@ -207,8 +227,8 @@ h1 {
 height: 2.0625rem;
 flex-shrink: 0;
     color: #FFF;
-    font-family: Product Sans Black;
-    font-size: 1.80rem;
+    font-family: 'Product Sans Black';
+    font-size: 1.70rem;
     font-style: normal;
     font-weight: 900;
     line-height: normal;
@@ -222,25 +242,42 @@ h2 {
 height: 1.25rem;
 flex-shrink: 0;
 color: #FFF;
-font-family: Product Sans Black;
+font-family: 'Product Sans Black';
 font-size: 1.183rem;
 font-style: normal;
 font-weight: 900;
 line-height: normal;
 }
 
+h3 {
+    position: absolute;
+    margin-left: 55rem;
+    margin-top: 27rem;
+    width: 37.875rem;
+height: 2.9375rem;
+flex-shrink: 0;
+font-family: 'Product Sans Black';
+font-size: 1.183rem;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+    background: linear-gradient(84deg, #FD6A51 0%, #FE3370 0.01%, #FCA82E 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
 
 p {
     position: absolute;
     margin-left: 55rem;
     margin-top: 6.5rem;
     color: #929292;
-font-family: Product Sans Light;
-font-size: 1.60rem;
+font-family: 'Product Sans Light';
+font-size: 1.30rem;
 font-style: normal;
 font-weight: 300;
 line-height: 145.8%; /* 2.464rem */
-width: 41.8125rem;
+width: 36rem;
 height: 21.3125rem;
 flex-shrink: 0;
 }
