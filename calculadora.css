@@ -7,18 +7,18 @@ body {
 
 @font-face {
     font-family: 'Product Sans';
-    src: url('./Tipografias/ProductSans-Black.ttf') format('ttf'),
-        url('./Tipografias/ProductSans-BlackItalic.ttf') format('ttf'),
-        url('./Tipografias/ProductSans-Bold.ttf') format('ttf'),
-        url('./Tipografias/ProductSans-BoldItalic.ttf') format('ttf'),
-        url('./Tipografias/ProductSans-Italic.ttf') format('ttf'),
-        url('./Tipografias/ProductSans-Light.ttf') format('ttf'),
-        url('./Tipografias/ProductSans-LightItalic.ttf') format('ttf'),
-        url('./Tipografias/ProductSans-Medium.ttf') format('ttf'),
-        url('./Tipografias/ProductSans-MediumItalic.ttf') format('ttf'),
-        url('./Tipografias/ProductSans-Regular.ttf') format('ttf'),
-        url('./Tipografias/ProductSans-Thin.ttf') format('ttf'),
-        url('./Tipografias/ProductSans-ThinItalic.ttf') format('ttf');
+    src: url('Tipografias/ProductSans-Black.ttf') format('ttf'),
+        url('Tipografias/ProductSans-BlackItalic.ttf') format('ttf'),
+        url('Tipografias/ProductSans-Bold.ttf') format('ttf'),
+        url('Tipografias/ProductSans-BoldItalic.ttf') format('ttf'),
+        url('Tipografias/ProductSans-Italic.ttf') format('ttf'),
+        url('Tipografias/ProductSans-Light.ttf') format('ttf'),
+        url('Tipografias/ProductSans-LightItalic.ttf') format('ttf'),
+        url('Tipografias/ProductSans-Medium.ttf') format('ttf'),
+        url('Tipografias/ProductSans-MediumItalic.ttf') format('ttf'),
+        url('Tipografias/ProductSans-Regular.ttf') format('ttf'),
+        url('Tipografias/ProductSans-Thin.ttf') format('ttf'),
+        url('Tipografias/ProductSans-ThinItalic.ttf') format('ttf');
     /* ... */
     font-weight: normal;
     font-style: normal;
