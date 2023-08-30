@@ -239,7 +239,7 @@ line-height: normal;
 h3 {
     position: absolute;
     margin-left: 55rem;
-    margin-top: 27rem;
+    margin-top: 26.5rem;
     width: 37.875rem;
 height: 2.9375rem;
 flex-shrink: 0;
@@ -257,10 +257,10 @@ background-clip: text;
 p {
     position: absolute;
     margin-left: 55rem;
-    margin-top: 5rem;
+    margin-top: 7rem;
     color: #929292;
     font-family: 'Montserrat', sans-serif;
-font-size: 1.30rem;
+font-size: 1.25rem;
 font-style: normal;
 font-weight: 300;
 line-height: 145.8%; /* 2.464rem */
@@ -268,3 +268,4 @@ width: 40rem;
 height: 21.3125rem;
 flex-shrink: 0;
 }
+
