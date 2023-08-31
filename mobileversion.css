@@ -11,7 +11,7 @@
 
     #miFormulario {
         pointer-events: none;
-        top: 50%;
+       
         opacity: 0;
     }
 
@@ -32,6 +32,7 @@ text-align: center;
 
     .botonCel {
         position: absolute;
+        pointer-events: auto;
 opacity: 100;
         margin-top: 27rem;
         margin-left: 2.1rem;
@@ -69,4 +70,6 @@ display: flex;
         width: 20rem;
 
     }
+
+    
 }

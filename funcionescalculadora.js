@@ -3,7 +3,7 @@
 
 document.addEventListener('DOMContentLoaded', function() {
 
-    let inputs = document.querySelectorAll('.num');
+    let inputs = document.querySelectorAll('.conc');
     
     for (let i = 0; i < inputs.length; i++) {
         inputs[i].addEventListener('click', function() {
@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
 
     const botonActivarDesactivar = document.getElementById("activarDesactivar");
-    const inputs = document.querySelectorAll(".hey");
+    const inputs = document.querySelectorAll(".inv");
     
     
     let inputsActivados = true;
