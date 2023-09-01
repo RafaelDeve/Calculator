@@ -8,9 +8,6 @@ body {
 }
 
 
- 
-
-
 video {
     position: fixed;
     top: 0;
@@ -56,13 +53,6 @@ mix-blend-mode: multiply;
 
 }
 
-
-
-.botonCel {
-    position: absolute;
-    pointer-events: none;
-    opacity: 0;
-}
 
 .textField {
     width: 44.375rem;
